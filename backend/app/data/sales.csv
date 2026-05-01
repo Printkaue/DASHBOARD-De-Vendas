@@ -1,0 +1,31 @@
+order_id,date,product,category,price,quantity
+1001,2024-01-01,Mouse Gamer,Periféricos,120.50,2
+1002,2024-01-01,Teclado Mecânico,Periféricos,350.00,1
+1003,2024-01-02,Monitor 24",Monitores,899.99,1
+1004,2024-01-02,Cadeira Gamer,Móveis,1200.00,1
+1005,2024-01-03,Headset,Áudio,250.00,3
+1006,2024-01-03,Mouse Gamer,Periféricos,120.50,1
+1007,2024-01-04,Notebook Dell,Computadores,3500.00,1
+1008,2024-01-04,Webcam HD,Periféricos,180.00,2
+1009,2024-01-05,Monitor 24",Monitores,899.99,2
+1010,2024-01-05,Teclado Mecânico,Periféricos,350.00,1
+1011,2024-01-06,Headset,Áudio,250.00,1
+1012,2024-01-06,Mouse Gamer,Periféricos,120.50,4
+1013,2024-01-07,Cadeira Gamer,Móveis,1200.00,1
+1014,2024-01-07,Notebook Dell,Computadores,3500.00,1
+1015,2024-01-08,Webcam HD,Periféricos,180.00,3
+1016,2024-01-08,Monitor 24",Monitores,899.99,1
+1017,2024-01-09,Headset,Áudio,250.00,2
+1018,2024-01-09,Mouse Gamer,Periféricos,120.50,2
+1019,2024-01-10,Teclado Mecânico,Periféricos,350.00,2
+1020,2024-01-10,Cadeira Gamer,Móveis,1200.00,1
+1021,2024-01-11,Notebook Dell,Computadores,3500.00,1
+1022,2024-01-11,Webcam HD,Periféricos,180.00,1
+1023,2024-01-12,Monitor 24",Monitores,899.99,1
+1024,2024-01-12,Headset,Áudio,250.00,3
+1025,2024-01-13,Mouse Gamer,Periféricos,120.50,5
+1026,2024-01-13,Teclado Mecânico,Periféricos,350.00,1
+1027,2024-01-14,Notebook Dell,Computadores,3500.00,1
+1028,2024-01-14,Webcam HD,Periféricos,180.00,2
+1029,2024-01-15,Monitor 24",Monitores,899.99,2
+1030,2024-01-15,Cadeira Gamer,Móveis,1200.00,1

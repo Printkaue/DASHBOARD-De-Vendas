@@ -1,0 +1,160 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: #0a0a0f;
+  color: #e0e0e0;
+  min-height: 100vh;
+}
+
+/* Loading */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 16px;
+  color: #555;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Layout principal */
+.dashboard {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.dashboard h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  margin-bottom: 4px;
+}
+
+.dashboard > p.subtitle {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+/* Card de receita total */
+.card {
+  background: #111118;
+  border: 0.5px solid #1e1e2e;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 220px;
+}
+
+.card .label {
+  font-size: 11px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.card .value {
+  font-size: 36px;
+  font-weight: 500;
+  color: #00ff88;
+  letter-spacing: -1.5px;
+  line-height: 1;
+}
+
+/* Seções */
+.chart-section,
+.products-section {
+  background: #111118;
+  border: 0.5px solid #1e1e2e;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.chart-section h2,
+.products-section h2 {
+  font-size: 11px;
+  font-weight: 500
+}
+
+.product-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.medal {
+  font-size: 16px;
+  width: 28px;
+  text-align: center;
+}
+
+.product-left .name {
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.product-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.qty {
+  font-size: 13px;
+  color: #aaa;
+  font-weight: 500;
+}
+
+.pct {
+  font-size: 11px;
+  color: #00ff88;
+  background: rgba(0, 255, 136, 0.08);
+  border: 0.5px solid rgba(0, 255, 136, 0.2);
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-weight: 500;
+  min-width: 40px;
+  text-align: center;
+}
+
+.bar-track {
+  width: 100%;
+  height: 3px;
+  background: #1a1a2e;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #00ff88, #00cc6a);
+  border-radius: 2px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
