@@ -11,12 +11,6 @@ Dashboard de vendas fictício desenvolvido para portfólio. Exibe dados de recei
 
 ---
 
-## Demonstração
-
-![preview](https://github.com/Printkaue/DASHBOARD-De-Vendas/raw/main/preview.png)
-
----
-
 ## Funcionalidades
 
 - Exibição da receita total
